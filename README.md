@@ -97,4 +97,5 @@ Navigate with arrow keys; hightlight a process and press **k** (kill) or **s**/*
 ---
 
 ### Note;  
+- if you're testing with the test script, change the file permission (it's advisable to test killing or stopping a process feature with the test script so you won't interfere with important system process. )
 - CPU% is computed as a delta jiffies per interval (since last call) divided by total delta jiffies, it's then displayed as percent of whole machine CPU. On multi-core sysytems, this will show relative usage across all cores (0-100%).    
